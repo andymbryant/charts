@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chart-container {
+    width: 500px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#gradChart, #enrollChart {
+  display: block;
+  height: 250px;
+  width: 500px;
+}
